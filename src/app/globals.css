@@ -1,12 +1,24 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --background-color: #000;
+  --text-color: #fff;
+  --card-background: rgba(255, 255, 255, 0.05);
+  --card-hover: rgba(255, 255, 255, 0.08);
+  --accent-color: #4ecdc4;
+  --logo-filter: brightness(0) invert(1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --background-color: #000;
+    --text-color: #fff;
+    --card-background: rgba(255, 255, 255, 0.05);
+    --card-hover: rgba(255, 255, 255, 0.08);
+    --accent-color: #4ecdc4;
+    --logo-filter: brightness(0) invert(1);
   }
 }
 
@@ -39,4 +51,22 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+[data-theme="light"] {
+  --background-color: #fff;
+  --text-color: #000;
+  --card-background: rgba(0, 0, 0, 0.05);
+  --card-hover: rgba(0, 0, 0, 0.08);
+  --accent-color: #007a72;
+  --logo-filter: none;
+}
+
+[data-theme="dark"] {
+  --background-color: #000;
+  --text-color: #fff;
+  --card-background: rgba(255, 255, 255, 0.05);
+  --card-hover: rgba(255, 255, 255, 0.08);
+  --accent-color: #4ecdc4;
+  --logo-filter: brightness(0) invert(1);
 }
