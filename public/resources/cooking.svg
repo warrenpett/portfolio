@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#4ecdc4" opacity="0.1"/>
+  
+  <!-- Pot -->
+  <ellipse cx="150" cy="120" rx="60" ry="40" fill="#4ecdc4" opacity="0.3"/>
+  <path d="M90,120 L210,120" stroke="#4ecdc4" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Lid -->
+  <ellipse cx="150" cy="80" rx="50" ry="10" fill="#4ecdc4" opacity="0.3"/>
+  <path d="M100,80 L200,80" stroke="#4ecdc4" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Handle -->
+  <path d="M150,80 L150,60" stroke="#4ecdc4" stroke-width="2" opacity="0.5"/>
+  <circle cx="150" cy="60" r="5" fill="#4ecdc4" opacity="0.5"/>
+  
+  <!-- Steam -->
+  <path d="M140,70 L140,50" stroke="#4ecdc4" stroke-width="1" opacity="0.3"/>
+  <path d="M150,70 L150,40" stroke="#4ecdc4" stroke-width="1" opacity="0.3"/>
+  <path d="M160,70 L160,50" stroke="#4ecdc4" stroke-width="1" opacity="0.3"/>
+</svg> 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#4ecdc4" opacity="0.1"/>
+  
+  <!-- Book -->
+  <rect x="100" y="50" width="100" height="120" fill="#4ecdc4" opacity="0.3"/>
+  <rect x="100" y="50" width="100" height="120" fill="none" stroke="#4ecdc4" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Reading Glasses -->
+  <path d="M120,100 C120,90 130,90 130,100 C130,110 120,110 120,100" fill="none" stroke="#4ecdc4" stroke-width="2" opacity="0.5"/>
+  <path d="M170,100 C170,90 180,90 180,100 C180,110 170,110 170,100" fill="none" stroke="#4ecdc4" stroke-width="2" opacity="0.5"/>
+  <path d="M130,100 L170,100" stroke="#4ecdc4" stroke-width="2" opacity="0.5"/>
+  <path d="M120,100 L110,90" stroke="#4ecdc4" stroke-width="2" opacity="0.5"/>
+  <path d="M180,100 L190,90" stroke="#4ecdc4" stroke-width="2" opacity="0.5"/>
+</svg> 

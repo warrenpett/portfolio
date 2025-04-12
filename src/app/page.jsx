@@ -197,6 +197,51 @@ export default function Home() {
         </section>
         {/* #endregion */}
 
+        <section id="hobbies" className={styles.hobbiesSection}>
+          <h2 className={styles.sectionTitle}>Outside of Work</h2>
+          <div className={styles.hobbiesGrid}>
+            <div className={styles.hobbyItem}>
+              <div className={styles.hobbyImage}>
+                <Image
+                  src="/resources/bear.png"
+                  alt="Hiking"
+                  width={300}
+                  height={200}
+                  className={styles.hobbyImg}
+                />
+              </div>
+              <h3>Hiking & Nature</h3>
+              <p>Exploring trails and enjoying the great outdoors</p>
+            </div>
+            <div className={styles.hobbyItem}>
+              <div className={styles.hobbyImage}>
+                <Image
+                  src="/resources/leaves1.png"
+                  alt="Photography"
+                  width={300}
+                  height={200}
+                  className={styles.hobbyImg}
+                />
+              </div>
+              <h3>Photography</h3>
+              <p>Capturing moments and landscapes</p>
+            </div>
+            <div className={styles.hobbyItem}>
+              <div className={styles.hobbyImage}>
+                <Image
+                  src="/resources/leaves2.png"
+                  alt="Reading"
+                  width={300}
+                  height={200}
+                  className={styles.hobbyImg}
+                />
+              </div>
+              <h3>Reading</h3>
+              <p>Expanding knowledge through books</p>
+            </div>
+          </div>
+        </section>
+
         {/* #region Contact Section */}  
         <section className={styles.contactSection}>
           <h2 className={styles.sectionTitle}>Get in Touch</h2>
